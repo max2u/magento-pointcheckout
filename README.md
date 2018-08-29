@@ -3,8 +3,8 @@ PointCheckout extension for magento 1.9 setup guide
 
 This guide walks you through on how to setup PointCheckout as a payment method on magento 1.9
 
-	1.	Download the extension zip file from releases tab
-	2. Follow the Megento extension setup guides
+ 1. Download the extension zip file from releases tab
+ 2. Follow the Megento extension setup guides
       •	Log in to Magento admin panel
       •	Check Cache Management (if there are some Cache Types disabled change them to enable status.
       •	Under System -> Cache Management
@@ -16,7 +16,7 @@ This guide walks you through on how to setup PointCheckout as a payment method o
       •	Go to System/Tools/Compilation and Enable compilation
       •	Log out from Magento 
       •	Log in to admin panel again and you should see the extension setup UI under System -> Configuration -> Payment Methods
-	3.	set configuration for the extension: 
+ 3. set configuration for the extension: 
       •	Live or Test Mode: that to choose between live and test mode
       •	API Key:  The API Key Provided by PointCheckout
       •	API Secret Key: The API Secret Key Provided by PointCheckout
@@ -26,6 +26,3 @@ This guide walks you through on how to setup PointCheckout as a payment method o
       •	If Yes, a multi-select list of all Customer groups is shown to select the target groups
       •	New order status: the status of the order once the customer is redirected to PointCheckout for processing the payment
       •	Payment success status: the status of the order if payment successfully processed 
-
-
-
